@@ -107,17 +107,40 @@ You can learn more about how this will happen over time with the GitHub issue li
      <br>
      <b>A note for old iDevices</b><br>
      Higher RAM can be set (using the overrideargs.txt file and jetsamctl), but we are unsure if iOS 12 will give enough free RAM.<br>
+     <br>
      <h2>* v1.1</h2>
      <b>Fixes</b><br>
      • Fixed random crashes that occurs while Minecraft is initializing.<br>
+     <br>
      <b>Changes</b><br>
      • Added a place to customize JVM Flags, by create and edit minecraft/overrideargs.txt file.<br>
-Changed button offset for avoiding notch cutout on iPhone X and newer.
-Forge 1.13+ (not all) and Fabric API are now supported.
-launcher_profiles.json is now automatically created.
-Minecraft 1.6.1 to 1.13.2 are now playable.
-Mojang authentication was re-written, so it should work now.
+     • Changed button offset for avoiding notch cutout on iPhone X and newer.<br>
+     • Forge 1.13+ (not all) and Fabric API are now supported.<br>
+     • launcher_profiles.json is now automatically created.<br>
+     • Minecraft 1.6.1 to 1.13.2 are now playable.<br>
+     • Mojang authentication was re-written, so it should work now.<br>
+     <br>
+     <b>Issues</b><br>
+     • Crash if login to Microsoft fails.<br>
+     • Several Forge versions won’t work due to removed deprecated classes (see #67 and #68).<br>
+     • Text input will not work on 1.12.2 and below.<br>
      <h2>* v1.0</h2>
+     This is the first release of PojavLauncher iOS, the first ever Minecraft: Java Edition launcher for iOS. The Java Runtime can be found at Procursus repository or here.<br>
+     <br>
+     <b>Features</b><br>
+     • Login with Mojang (might not work), Microsoft (not tested) or offline.<br>
+Minecraft 1.14+ are playable.<br>
+Multiplayer and joining servers works.<br>
+Audio works (need enable ringer).<br>
+Fabric and OptiFine works.<br>
+Bedrock-like gestures: click to hotbar item; click to place block (trigger right mouse); hold and move to destroy blocks (trigger hold left mouse), but attacking entites is left mouse, so not same as Bedrock.<br>
+Hold screen on UI will hold the left mouse, so it can also used for moving the scroll bar.<br>
+On-screen control buttons.<br>
+<br>
+<b>Limitations</b><br>
+Jailbreak is required in order to install OpenJDK and PojavLauncher.<br>
+Forge won't work.<br>
+Fabric API won't work.<br>
      <h1>Notice</h1>
       Releases with an asterisk (*) beside implies that the packages for that specific release has been removed as compliance within Microsoft's copyright notice and takedown request.<br>
     </div>
